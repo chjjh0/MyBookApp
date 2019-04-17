@@ -1,0 +1,55 @@
+h1.display-4 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.alert {
+    height: 50px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+label {
+    font-size:20px;
+}
+
+.table {
+    text-align: center;
+    font-size: 16px;
+}
+
+.tab {
+    overflow: hidden;
+    background: rgb(48, 48, 48);
+    margin: 50px 0 0;
+}
+
+.tab button {
+    background-color: inherit;
+    color: #888;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 33.333%;
+}
+
+.toggle {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    line-height: 20px;
+    border: 3PX solid red;
+    margin-top: 15px;
+}
+
+.read {
+    text-decoration: line-through;
+}
+
+.unread {
+    text-decoration: none;
+}
