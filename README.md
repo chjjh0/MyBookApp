@@ -5,7 +5,7 @@
 * 빈칸 및 동일한 ISBN은 등록 및 수정을 할 수 없는 Validation 과정이 있습니다.
 * 모든 책, 읽은 책, 읽지 않은 책을 CheckBox로 제어 가능하며 각각 확인이 가능합니다.
 * CSS는 https://bootswatch.com/ 의 완성된 CSS를 활용하였습니다.
-
+* Test Add: https://chjjh0.github.io/MyBookApp/
 
 
 # ScreenShot
