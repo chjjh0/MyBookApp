@@ -73,8 +73,8 @@ class Book {
         <td>${book.title}</td>
         <td>${book.author}</td>
         <td>${book.isbn}</td>
-        <td><a href="#" class="btn btn-secondary update">Update</a></td>
-        <td><a href="#" class="btn btn-danger btn-sm delete">Del</a></td>
+        <td><a href="javascript:;" class="btn btn-secondary update">Update</a></td>
+        <td><a href="javascript:;" class="btn btn-danger btn-sm delete">Del</a></td>
       `;
   
       list.prepend(row);
@@ -327,15 +327,11 @@ class Book {
     // Clear setTimeout
     clearTimeout(alertTimeId);
 
-    // prevent default action
-    (e.target.classList.contains('toggle')) ? '' : e.preventDefault();
-
     // CheckBox: Read or Unread
     if (e.target.classList.contains('toggle')) {
       var tdArr = e.target.parentElement.parentElement.querySelectorAll('td');
       var books = Store.getBooks('books');
-      var readIsbn = tdArr[2].textContent;
-      var readBooks, unreadBooks;
+      var readIsbn = tdArr[3].textContent;
 
       if (e.target.checked === true) {
         // Setting readBooks
