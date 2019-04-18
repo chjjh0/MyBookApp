@@ -62,6 +62,6 @@
 ■ localStorage
 
 <div>
-    <img src='./MybookApp/localStorage.PNG' />
+    <img src='./MybookApp/localStorage.JPG' />
 </div>
 
