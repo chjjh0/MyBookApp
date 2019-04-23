@@ -6,7 +6,7 @@
 * 모든 책, 읽은 책, 읽지 않은 책을 CheckBox로 제어 가능하며 각각 확인이 가능합니다.
 * CSS는 https://bootswatch.com/ 의 완성된 CSS를 활용하였습니다.
 * Test Add: https://chjjh0.github.io/MyBookApp/
-
+<br><br><br><br>
 
 # ScreenShot
 
@@ -29,7 +29,7 @@
 <div>
     <img src='./MybookApp/validation2.PNG' />
 </div>
-
+<br><br><br><br>
 
 
 
@@ -38,7 +38,7 @@
 <div>
     <img src='./MybookApp/allbooks.PNG' />
 </div>
-
+<br><br><br><br>
 
 
 
@@ -47,7 +47,7 @@
 <div>
     <img src='./MybookApp/readBooks.PNG' />
 </div>
-
+<br><br><br><br>
 
 
 
@@ -56,7 +56,7 @@
 <div>
     <img src='./MybookApp/unreadBooks.PNG' />
 </div>
-
+<br><br><br><br>
 
 
 
@@ -65,4 +65,4 @@
 <div>
     <img src='./MybookApp/localStorage.JPG' />
 </div>
-
+<br><br>
